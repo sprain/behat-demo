@@ -9,19 +9,25 @@ I am not involved or connected to anybody at Behat. I am just a user :)
 
 2. Get [Composer](http://getcomposer.org) and run `composer install`
 
-3. Download Selenium Standalone Server from <http://code.google.com/p/selenium/downloads/list> and put it into the `/selenium` folder.
 
-4. Start Selenium server with the correct version number:
+3. Start Selenium server with the correct version number:
 
 	```
-    java -jar selenium/selenium-server-standalone-x.xx.x.jar
+    java -jar selenium/selenium-server-standalone-2.31.0.jar
 	```
+	or have it running in the background
 
-5. Open a new console window and run this command:
+	```	
+	nohup bash -c "java -jar selenium/selenium-server-standalone-2.31.0.jar &"
+	```
+	
+
+4. Open a new console window and run this command:
 
 	```
     bin/behat
 	```
 	
-## Documentation
-<http://behat.org>
+## Links
+* <http://behat.org>
+* [Selenium Standalone Server Download](http://code.google.com/p/selenium/downloads/list)
