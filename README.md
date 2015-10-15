@@ -13,12 +13,12 @@ I am not involved or connected to anybody at Behat. I am just a user :)
 3. Start Selenium server with the correct version number:
 
 	```
-    java -jar selenium/selenium-server-standalone-2.31.0.jar
+    java -jar selenium/selenium-server-standalone-2.48.2.jar
 	```
 	or have it running in the background
 
 	```	
-	nohup bash -c "java -jar selenium/selenium-server-standalone-2.31.0.jar &"
+	nohup bash -c "java -jar selenium/selenium-server-standalone-2.48.2.jar &"
 	```
 	
 
