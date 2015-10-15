@@ -1,7 +1,0 @@
-# Continuous Integration with http://circleci.com
-
-test:
-  pre:
-   - nohup bash -c "java -jar selenium/selenium-server-standalone-2.31.0.jar &"
-  override:
-    - bin/behat
